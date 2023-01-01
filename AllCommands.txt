@@ -1,0 +1,53 @@
+Git All Commands
+1. git --version
+2. git config
+3. git config --global -user.name "your_name"
+4. git config --global -user.email "your_email"
+5. git config --list
+6. git config user.name
+7. git config user.email
+8. git status
+9. git init
+10. git add --a or git add . or git add File_name
+11. git commit -m "Initial Commit"
+12. git log
+13. rm -rf .git
+14. pwd / cd / ls
+15. git clone url_paste
+16. touch .gitignore
+17. git diff
+18. git diff --staged
+19. git commit -a -m "Direct Commit"
+20. git rm
+21. git mv first.txt error.txt
+22. git em --cached db.accdb
+23. git log -p
+24. git log -p -3
+25. git log --stat
+26. git log --pretty=oneline
+27. git log --pretty=short
+28. git log --pretty=full
+29. git log --since=2.days
+30. git log --since=2.weeks
+31. git log --since=2.months
+32. git log --since=2.years
+33. git log --pretty=format:"%h--%an"
+34. git log --pretty=format:"%h--%ae"
+35. git commit --amend
+36. vim editor :- i,esc,:wq,enter
+37. git restore --staged file_name
+38. git restore
+39. git checkout -- file_name
+40. git checkout -f
+41. git remote
+42. git remote -v
+43. git config --global alias.sus status
+44. git checkout -b branch_name
+45. git checkout developer
+46. git checkout 
+47. git branch
+48. 
+SSH keys Generting Commands
+1. ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+2. eval "$(ssh-agent -s)"
+3. ssh-add ~/.ssh/id_rsa
